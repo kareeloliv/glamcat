@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220829120949">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220925221825">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,10 +20,9 @@
 				<div class="top-header__container">
 					<nav class="top-header__menu menu-top-header">
 						<ul data-da=".menu__body,991.98" class="menu-top-header__list">
-							<li class="menu-top-header__item menu-top-header__item_catalog"><a href="" class="menu-top-header__link menu-top-header__link_catalog _icon-arrow-bottom">Каталог товаров</a></li>
-							<li class="menu-top-header__item"><a href="" class="menu-top-header__link">О нас</a></li>
+							<li class="menu-top-header__item"><a href="catalog.html" class="menu-top-header__link">Каталог</a></li>
+							<li class="menu-top-header__item"><a href="about-us.html" class="menu-top-header__link">О нас</a></li>
 							<li class="menu-top-header__item"><a href="" class="menu-top-header__link">Оплата и доставка</a></li>
-							<li class="menu-top-header__item"><a href="" class="menu-top-header__link">Новости</a></li>
 							<li class="menu-top-header__item"><a href="" class="menu-top-header__link">Контакты</a></li>
 						</ul>
 					</nav>
@@ -43,7 +42,7 @@
 
 			<div class="header__body body-header">
 				<div class="body-header__container">
-					<a href="" class="body-header__logo"></a>
+					<a href="index.html" class="body-header__logo"></a>
 					<div data-da=".catalog-header__container,479.98" class="body-header__searh">
 						<form class="searh-header" action="#">
 							<button class="searh-header__button _icon-search" type="submit"></button>
@@ -70,10 +69,10 @@
 								звонок</button>
 						</div>
 						<a href="" data-da=".top-header__container,991.98,2" class="actions-header__favorite _icon-favorite"></a>
-						<a href="../cart.html" data-da=".top-header__container,991.98,2" class="actions-header__cart cart-header">
+						<a href="cart.html" data-da=".top-header__container,991.98,2" class="actions-header__cart cart-header">
 							<div class="cart-header__icon _icon-cart"><span>0</span></div>
 							<div class="cart-header__body">
-								<div class="cart-header__summ">0 р.</div>
+								<div class="cart-header__summ">0 ₽</div>
 								<div class="cart-header__link">Оформить заказ</div>
 							</div>
 						</a>
@@ -84,96 +83,65 @@
 			<div class="header__catalog catalog-header">
 				<div class="catalog-header__container">
 					<nav class="catalog-header__menu menu-catalog">
-						<button type="button" class="menu-catalog__back _icon-back">Назад</button>
+
 						<ul class="menu-catalog__list">
-							<li class="menu-catalog__item"><button data-parent="1" class="menu-catalog__link">Каталог одежды</button></li>
-							<li class="menu-catalog__item"><button data-parent="2" class="menu-catalog__link">Зима</button></li>
-							<li class="menu-catalog__item"><button class="menu-catalog__link">Весна</button></li>
-							<li class="menu-catalog__item"><button class="menu-catalog__link">Лето</button></li>
-							<li class="menu-catalog__item"><button class="menu-catalog__link">Осень</button></li>
+							<li class="menu-catalog__item"><a data-parent="1" class="menu-catalog__link">Каталог одежды</a></li>
+							<li class="menu-catalog__item"><a class="menu-catalog__link">Зима</a></li>
+							<li class="menu-catalog__item"><a class="menu-catalog__link">Весна</a></li>
+							<li class="menu-catalog__item"><a class="menu-catalog__link">Лето</a></li>
+							<li class="menu-catalog__item"><a class="menu-catalog__link">Осень</a></li>
 						</ul>
-						<div class="menu-catalog__sub-menu sub-menu-catalog">
-							<button type="button" class="sub-menu-catalog__back _icon-back">Назад</button>
 
-							<div class="sub-menu-catalog__container">
-
-								<div hidden data-submenu="1" class="sub-menu-catalog__block">
-
-									<div class="sub-menu-catalog__category">
-										<a href="" class="sub-menu-catalog__link-category">Все товары</a>
-									</div>
-
-									<div class="sub-menu-catalog__category">
-										<a href="" class="sub-menu-catalog__link-category">Одежда по сезону</a>
-									</div>
-
-									<div class="sub-menu-catalog__category">
-										<a href="" class="sub-menu-catalog__link-category">Размер</a>
-									</div>
-
-									<div class="sub-menu-catalog__category">
-										<a href="" class="sub-menu-catalog__link-category">Пол</a>
-									</div>
-
-									<div class="sub-menu-catalog__category">
-										<a href="" class="sub-menu-catalog__link-category">Фильтр</a>
-									</div>
-
-
+						<div hidden data-submenu="1" class="menu-catalog__sub-menu sub-menu-catalog">
+							<ul class="sub-menu-catalog__submenu">
+								<li class="sub-menu-catalog__category"><a href="#" class="sub-menu-catalog__link-category">Название категории</a>
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Комбинезоны</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Толстовки</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Платья</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Жилеты</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Дождевики</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Куртки</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
 									</ul>
-
+								</li>
+								<li class="sub-menu-catalog__category"><a href="#" class="sub-menu-catalog__link-category">Название категории</a>
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Демисезонные</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Зима</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Весна</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Лето</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Осень</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
 									</ul>
-
+								</li>
+								<li class="sub-menu-catalog__category"><a href="#" class="sub-menu-catalog__link-category">Название категории</a>
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Для средних и малых пород</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
 									</ul>
-
+								</li>
+								<li class="sub-menu-catalog__category"><a href="#" class="sub-menu-catalog__link-category">Название категории</a>
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Для мальчиков</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Для девочек</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
 									</ul>
-
+								</li>
+								<li class="sub-menu-catalog__category"><a href="#" class="sub-menu-catalog__link-category">Название категории</a>
 									<ul class="sub-menu-catalog__list">
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Новинки</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Товары со скидкой</a></li>
-										<li class="sub-menu-catalog__item"><a href="" class="sub-menu-catalog__link">Популярное</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
+										<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Категория</a></li>
 									</ul>
-
-									<div class="sub-menu-catalog__footer">
-										<a href="../catalog.html" class="sub-menu-catalog__all">Смотреть все</a>
-									</div>
-									<div class="sub-menu-catalog__footer">
-										<a href="" class="sub-menu-catalog__all">Смотреть все</a>
-									</div>
-									<div class="sub-menu-catalog__footer">
-										<a href="" class="sub-menu-catalog__all">Смотреть все</a>
-									</div>
-									<div class="sub-menu-catalog__footer">
-										<a href="" class="sub-menu-catalog__all">Смотреть все</a>
-									</div>
-									<div class="sub-menu-catalog__footer">
-										<a href="" class="sub-menu-catalog__all">Смотреть все</a>
-									</div>
-
-								</div>
-
-
-
-							</div>
+								</li>
+							</ul>
 						</div>
+
 					</nav>
 				</div>
 			</div>
@@ -187,14 +155,41 @@
 							<div class="main-block__swiper">
 								<div class="main-block__slide slide-main-block">
 									<div class="slide-main-block__content">
-										<h1 data-swiper-parallax="-100" class="slide-main-block__title">Одежда для собак оптом от производителя</h1>
-										<div data-swiper-parallax="-200" class="slide-main-block__text">
-											Российский производитель одежды GlamCat – это набирающий популярность бренд в зоо моде.
-											В наших каталогах вы найдете одежду разных ценовых категорий и неизменно высокого качества!
-											Заказы в магазине GlamCat принимаются на сумму свыше 30 тыс. руб., доставка производится по всей России.
+										<div class="slide-main-block__text">
+											<h1 class="slide-main-block__title">Одежда для собак оптом от производителя</h1>
+											<div class="slide-main-block__text">
+												Российский производитель одежды GlamCat – это набирающий популярность бренд в зоо моде.
+												В наших каталогах вы найдете одежду разных ценовых категорий и неизменно высокого качества!
+												Заказы в магазине GlamCat принимаются на сумму свыше 30 тыс. руб., доставка производится по всей России.
+											</div>
+											<a href="" class="slide-main-block__button button">Подробнее</a>
+										</div>
+										<div class="slide-main-block__media media-main-block">
+											<div class="media-main-block__body">
+												<div class="media-main-block__image">
+													<img src="img/mainpage/main-block/logo.svg" alt="Картинка">
+												</div>
+											</div>
 										</div>
 									</div>
-									<a href="" data-swiper-parallax="-300" class="slide-main-block__button button">Подробнее</a>
+								</div>
+								<div class="main-block__slide slide-main-block">
+									<div class="slide-main-block__content">
+										<div class="slide-main-block__text">
+											<h1 class="slide-main-block__title">Осенняя коллекция</h1>
+											<div class="slide-main-block__text">
+												Широкий ассортимент собачьих костюмов на весенне-осенний сезон в интернет-магазине GlamCat. Доставка по Москве, Санкт-Петербургу и другим городам России.
+											</div>
+											<a href="" class="slide-main-block__button button">Подробнее</a>
+										</div>
+										<div class="slide-main-block__media media-main-block">
+											<div class="media-main-block__body">
+												<div class="media-main-block__image">
+													<img src="img/mainpage/main-block/logo.svg" alt="Картинка">
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="main-block__controll controll-main-block">
@@ -204,20 +199,6 @@
 									/
 									<span class="fraction-controll__all">0</span>
 								</div>
-							</div>
-						</div>
-						<div class="main-block__media media-main-block">
-							<div class="media-main-block__body">
-								<div class="media-main-block__image">
-									<img src="img/mainpage/main-block/logo.svg" alt="Картинка">
-								</div>
-								<!--
-								<div class="media-main-block__tips">
-									<button type="button" data-tippy-content="Подсказка" class="media-main-block__tip media-main-block__tip_1"><span>+</span></button>
-									<button type="button" data-tippy-content="Подсказка" class="media-main-block__tip media-main-block__tip_2"><span>+</span></button>
-									<button type="button" data-tippy-content="Подсказка" class="media-main-block__tip media-main-block__tip_3"><span>+</span></button>
-								</div>
-								-->
 							</div>
 						</div>
 					</div>
@@ -261,19 +242,21 @@
 							<div class="products-slider__swiper">
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_instock">В наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price">2 719 ₽</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
@@ -283,19 +266,21 @@
 								</div>
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_outstock">Нет в наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price">2 719 ₽</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
@@ -306,19 +291,21 @@
 								</div>
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_instock">В наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price">2 719 ₽</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
@@ -328,19 +315,21 @@
 								</div>
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_instock">В наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price">2 719 ₽</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
@@ -350,19 +339,21 @@
 								</div>
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_instock">В наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price">2 719 ₽</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
@@ -389,19 +380,21 @@
 							<div class="products-slider__swiper">
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_instock">В наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price">2 719 ₽</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
@@ -411,19 +404,21 @@
 								</div>
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_outstock">Нет в наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price">2 719 ₽</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
@@ -434,19 +429,21 @@
 								</div>
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_instock">В наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price">2 719 ₽</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
@@ -456,19 +453,21 @@
 								</div>
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_instock">В наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price">2 719 ₽</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
@@ -478,19 +477,21 @@
 								</div>
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_instock">В наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price">2 719 ₽</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
@@ -517,41 +518,25 @@
 							<div class="products-slider__swiper">
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<div class="product-card__sale">-50%</div>
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_instock">В наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
-												<a href="" class="product-card__favorite _icon-favorite"></a>
-											</div>
-
-											<button type="button" class="product-card__cart button"><span class="_icon-cart">В корзину</span></button>
-										</div>
-									</article>
-								</div>
-								<div class="products-slider__slide">
-									<article class="product-card">
-										<a href="" class="product-card__image">
-											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
-											</span>
-										</a>
-										<div class="product-card__body">
-											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
-											</h4>
-											<div class="stock_outstock">Нет в наличии</div>
-
-											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price-info">
+													<div class="product-card__old-price">2 719 ₽</div>
+													<div class="product-card__new-price">1 360 ₽</div>
+												</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
@@ -562,67 +547,117 @@
 								</div>
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<div class="product-card__sale">-50%</div>
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_instock">В наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price-info">
+													<div class="product-card__old-price">2 719 ₽</div>
+													<div class="product-card__new-price">1 360 ₽</div>
+												</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
-											<button type="button" class="product-card__cart button"><span class="_icon-cart">В корзину</span></button>
+											<button type="button" class="product-card__cart button"><span class="_icon-cart">В
+													корзину</span></button>
 										</div>
 									</article>
 								</div>
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<div class="product-card__sale">-50%</div>
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_instock">В наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price-info">
+													<div class="product-card__old-price">2 719 ₽</div>
+													<div class="product-card__new-price">1 360 ₽</div>
+												</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
-											<button type="button" class="product-card__cart button"><span class="_icon-cart">В корзину</span></button>
+											<button type="button" class="product-card__cart button"><span class="_icon-cart">В
+													корзину</span></button>
 										</div>
 									</article>
 								</div>
 								<div class="products-slider__slide">
 									<article class="product-card">
-										<a href="" class="product-card__image">
+										<div class="product-card__sale">-50%</div>
+										<a href="product.html" class="product-card__image">
 											<span class="product-card__item-image-ibg">
-												<picture><source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка"></picture>
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
 											</span>
 										</a>
 										<div class="product-card__body">
 											<h4 class="product-card__title">
-												<a href="" class="product-card__link-title">Название товара</a>
+												<a href="product.html" class="product-card__link-title">Название товара</a>
 											</h4>
 											<div class="stock_instock">В наличии</div>
 
 											<div class="product-card__action">
-												<div class="product-card__price">2 719 р.</div>
+												<div class="product-card__price-info">
+													<div class="product-card__old-price">2 719 ₽</div>
+													<div class="product-card__new-price">1 360 ₽</div>
+												</div>
 												<a href="" class="product-card__favorite _icon-favorite"></a>
 											</div>
 
-											<button type="button" class="product-card__cart button"><span class="_icon-cart">В корзину</span></button>
+											<button type="button" class="product-card__cart button"><span class="_icon-cart">В
+													корзину</span></button>
+										</div>
+									</article>
+								</div>
+								<div class="products-slider__slide">
+									<article class="product-card">
+										<div class="product-card__sale">-50%</div>
+										<a href="product.html" class="product-card__image">
+											<span class="product-card__item-image-ibg">
+												<picture>
+													<source srcset="img/produtc-card/image1.webp" type="image/webp"><img src="img/produtc-card/image1.jpg" alt="Картинка">
+												</picture>
+											</span>
+										</a>
+										<div class="product-card__body">
+											<h4 class="product-card__title">
+												<a href="product.html" class="product-card__link-title">Название товара</a>
+											</h4>
+											<div class="stock_instock">В наличии</div>
+
+											<div class="product-card__action">
+												<div class="product-card__price-info">
+													<div class="product-card__old-price">2 719 ₽</div>
+													<div class="product-card__new-price">1 360 ₽</div>
+												</div>
+												<a href="" class="product-card__favorite _icon-favorite"></a>
+											</div>
+
+											<button type="button" class="product-card__cart button"><span class="_icon-cart">В
+													корзину</span></button>
 										</div>
 									</article>
 								</div>
@@ -636,84 +671,65 @@
 
 			<section class="page__products-block products-block">
 				<div class="products-block__container">
-
 					<div class="products-block__overall product-block">
 						<div class="product-block__body">
-							<h4 class="product-block__title">
+							<h3 class="product-block__title">
 								<a href="" class="product-block__link-title">Комбинезоны</a>
-							</h4>
+							</h3>
 							<div class="product-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 							<a href="" class="product-block__button button">Подробнее</a>
 						</div>
 					</div>
-
 					<div class="products-block__hoody product-block">
 						<div class="product-block__body">
-							<h4 class="product-block__title">
+							<h3 class="product-block__title">
 								<a href="" class="product-block__link-title">Трикотаж</a>
-							</h4>
+							</h3>
 							<div class="product-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 							<a href="" class="product-block__button button">Подробнее</a>
 						</div>
 					</div>
-
 					<div class="products-block__dress product-block">
 						<div class="product-block__body">
-							<h4 class="product-block__title">
+							<h3 class="product-block__title">
 								<a href="" class="product-block__link-title">Платья</a>
-							</h4>
+							</h3>
 							<div class="product-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 							<a href="" class="product-block__button button">Подробнее</a>
 						</div>
 					</div>
-
 					<div class="products-block__vest product-block">
 						<div class="product-block__body">
-							<h4 class="product-block__title">
+							<h3 class="product-block__title">
 								<a href="" class="product-block__link-title">Жилеты</a>
-							</h4>
+							</h3>
 							<div class="product-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 							<a href="" class="product-block__button button">Подробнее</a>
 						</div>
 					</div>
-
 					<div class="products-block__raincoat product-block">
 						<div class="product-block__body">
-							<h4 class="product-block__title">
+							<h3 class="product-block__title">
 								<a href="" class="product-block__link-title">Дождевики</a>
-							</h4>
+							</h3>
 							<div class="product-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 							<a href="" class="product-block__button button">Подробнее</a>
 						</div>
 					</div>
-
 					<div class="products-block__raincoat product-block">
 						<div class="product-block__body">
-							<h4 class="product-block__title">
+							<h3 class="product-block__title">
 								<a href="" class="product-block__link-title">Куртки</a>
-							</h4>
+							</h3>
 							<div class="product-block__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 							<a href="" class="product-block__button button">Подробнее</a>
 						</div>
 					</div>
-
-
-
 				</div>
 			</section>
 
 		</main>
 		<footer class="footer">
-			<!--
-	<section class="footer__text text-footer">
-		<div class="text-footer__container">
-			<div class="text-footer__title">GlamCat - одежда для собак оптом от производителя</div>
-			<div class="text-footer__text">Российский производитель одежды GlamCat – это набирающий популярность бренд в зоо моде.
-				В наших каталогах вы найдете одежду разных ценовых категорий и неизменно высокого качества!
-				Заказы в магазине GlamCat принимаются на сумму свыше 30 тыс. руб., доставка производится по всей России.</div>
-		</div>
-	</section>
-	-->
 			<div class="footer__container">
 				<div class="footer__body body-footer">
 					<div class="body-footer__row">
@@ -940,7 +956,11 @@
 
 				<div class="popup__title">Заполните форму и мы вам перезвоним</div>
 
-				<form class="popup__form form-popup" action="">
+				<p class="message sent">Ваше сообщение успешно отправлено.</p>
+				<p class="message error">Ошибка. Проверьте правильность заполнения полей.</p>
+
+
+				<form class="popup__form form-popup">
 
 					<div class="form-popup__items">
 
@@ -977,7 +997,9 @@
 
 				<div class="popup__title">Вход в аккаунт</div>
 
-				<form class="popup__form form-popup" action="">
+				<p class="message error">Ошибка. Неверный логин или пароль.</p>
+
+				<form class="popup__form form-popup">
 					<div class="form-popup__items">
 						<div class="form-popup__item">
 							<input autocomplete="off" type="text" name="form[]" data-error="Ошибка" placeholder="Телефон или e-mail" class="input" required>
@@ -1016,30 +1038,58 @@
 					</div>
 				</form>
 
-				<div class="popup__link"><a href="" class="popup__link">Восстановить пароль</a></div>
+				<div class="popup__link"><a href="recover-password.html" class="popup__link">Восстановить пароль</a></div>
 
-				<div class="popup__link"><a href="" class="">Создать аккаунт</a></div>
+				<div class="popup__link"><a href="account-registration.html" class="">Создать аккаунт</a></div>
 
 			</div>
 		</div>
 	</div>
 
 
-	<div id="details" aria-hidden="true" class="popup">
+	<div id="feedback" aria-hidden="true" class="popup">
 		<div class="popup__wrapper">
 			<div class="popup__content">
 				<div class="popup__close">
 					<div data-close class="popup__item"></div>
 				</div>
 
-				<div class="popup__title">Детали заказа</div>
+				<div class="popup__title">Оставьте свой отзыв о товаре</div>
+				<p class="message sent">Спасибо! Ваш отзыв успешно опубликлван.</p>
+				<p class="message error">Ошибка отправки отзыва.</p>
 
+				<form class="popup__form form-popup">
 
+					<div class="form-popup__items">
+
+						<div class="form-popup__item">
+							<input autocomplete="on" type="text" name="form[]" data-error="Ошибка" placeholder="Ваше имя" class="input">
+						</div>
+
+						<div class="form-popup__item">
+							<textarea name="" id="" cols="30" rows="10" placeholder="Комментарий" class="input" required></textarea>
+						</div>
+
+						<div class="documents-registration__item">
+							<input name="input" type="file" id="field__file-2" class="documents-registration__input" accept=".png,.jpg,.jpeg,.doc,.pdf,.docx,.xls,.xlsx" multiple>
+
+							<label class="documents-registration__label" for="field__file-2">
+								<div class="documents-registration__button button button_border"><span class="_icon-file">Добавить фото</span></div>
+							</label>
+						</div>
+
+					</div>
+
+					<p class="form-popup__text">Размещая отзыв, Вы даёте согласие на использование данных отзыва на сторонних ресурсах</p>
+
+					<button class="form-popup__submit button" type="submit">Отправить</button>
+
+				</form>
 
 			</div>
 		</div>
 	</div>
-	<script src="js/app.min.js?_v=20220829120949"></script>
+	<script src="js/app.min.js?_v=20220925221825"></script>
 </body>
 
 </html>
